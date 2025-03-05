@@ -1,0 +1,25 @@
+<div class="container mt-3">
+  <div class="row justify-content-center align-content-center">
+    <div class="col-md-6 col-sm-6 col-6">
+      <div class="card shadow-sm">
+        <div class="card-header">
+          <h5 class="text-center">Update Country</h5>
+        </div>
+        <div class="card-body">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input type="hidden" id="id" name="id" [(ngModel)]="countryUpdateModel.id!">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" [(ngModel)]="countryUpdateModel.name">
+            </div>
+          </form>
+        </div>
+        <div class="card-footer">
+          <button class="btn btn-sm btn-outline-success" (click)="onClickCountryUpdate()">Update</button>
+          <button class="btn btn-sm btn-outline-info ms-1" routerLink="/countries">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "medium" color = "#fff" type = "ball-spin" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>

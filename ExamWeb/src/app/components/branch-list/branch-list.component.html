@@ -1,0 +1,39 @@
+<div class="container mt-3">
+    <div class="col-md-12 col-sm-12 col-12 mb-3">
+      <h3 class="text-center">Braches</h3>
+      <hr>
+      <button class="btn btn-sm btn-outline-primary" routerLink="/branch/create">Create Branch</button>
+    </div>
+    <div class="row justify-content-center align-content-center">
+      <div class="col-lg-12 col-md-12 col-sm-6 col-6">
+        <table class="table table-bordered table-striped">
+          <thead>
+            <tr class="text-center">
+              <th>Id</th>
+              <th>Name</th>
+              <th>City</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Address</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let city of branches">
+              <td>{{ city.id }}</td>
+              <td>{{ city.name }}</td>
+              <td>{{ city.cityName }}</td>
+              <td>{{ city.email }}</td>
+              <td>{{ city.phone }}</td>
+              <td>{{ city.address }}</td>
+              <td>
+                <button class="btn btn-sm btn-outline-success" routerLink="/branch/update/{{city.id}}">Edit</button>
+                <button class="btn btn-sm btn-outline-danger ms-1" (click)="onClickDelete(city.id!)">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "medium" color = "#fff" type = "ball-spin" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>
