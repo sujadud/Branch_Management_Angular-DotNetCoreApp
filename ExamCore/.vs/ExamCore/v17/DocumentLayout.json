@@ -1,0 +1,576 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{179A8AAE-1A84-445C-A1A8-5FB88E1F8D64}|ExamCore.Api\\ExamCore.Api.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{179A8AAE-1A84-445C-A1A8-5FB88E1F8D64}|ExamCore.Api\\ExamCore.Api.csproj|solutionrelative:examcore.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\employeelogic\\command\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\employeelogic\\command\\updateemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\rolelogic\\queries\\selectlistrolequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\rolelogic\\queries\\selectlistrolequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\employeelogic\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\employeelogic\\command\\createemployeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\employeelogic\\model\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\employeelogic\\model\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{179A8AAE-1A84-445C-A1A8-5FB88E1F8D64}|ExamCore.Api\\ExamCore.Api.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.api\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{179A8AAE-1A84-445C-A1A8-5FB88E1F8D64}|ExamCore.Api\\ExamCore.Api.csproj|solutionrelative:examcore.api\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\rolelogic\\model\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\rolelogic\\model\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9603BF06-03AB-4A99-84C6-3F29D251B929}|ExamCore.Repository\\ExamCore.Repository.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.repository\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9603BF06-03AB-4A99-84C6-3F29D251B929}|ExamCore.Repository\\ExamCore.Repository.csproj|solutionrelative:examcore.repository\\repository\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{070A6A9B-08F0-401F-99E6-FE755E2B70F1}|ExamCore.Manager\\ExamCore.Manager.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.manager\\manager\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{070A6A9B-08F0-401F-99E6-FE755E2B70F1}|ExamCore.Manager\\ExamCore.Manager.csproj|solutionrelative:examcore.manager\\manager\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{179A8AAE-1A84-445C-A1A8-5FB88E1F8D64}|ExamCore.Api\\ExamCore.Api.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{179A8AAE-1A84-445C-A1A8-5FB88E1F8D64}|ExamCore.Api\\ExamCore.Api.csproj|solutionrelative:examcore.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\countrylogic\\model\\countryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\countrylogic\\model\\countryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\countrylogic\\queries\\selectlistcountryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\countrylogic\\queries\\selectlistcountryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\rolelogic\\queries\\getroledetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\rolelogic\\queries\\getroledetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\countrylogic\\queries\\getcountrydetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\countrylogic\\queries\\getcountrydetailsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\rolelogic\\queries\\getallrolequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\rolelogic\\queries\\getallrolequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\countrylogic\\queries\\getallcountryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\countrylogic\\queries\\getallcountryquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\rolelogic\\command\\deleterolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\rolelogic\\command\\deleterolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\countrylogic\\command\\deletecountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\countrylogic\\command\\deletecountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\rolelogic\\command\\updaterolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\rolelogic\\command\\updaterolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B89043A6-214C-451C-8BFB-795A7DF18349}|ExamCore.Shared\\ExamCore.Shared.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.shared\\errormessages\\provideerrormessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B89043A6-214C-451C-8BFB-795A7DF18349}|ExamCore.Shared\\ExamCore.Shared.csproj|solutionrelative:examcore.shared\\errormessages\\provideerrormessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\rolelogic\\command\\createrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\rolelogic\\command\\createrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\countrylogic\\command\\updatecountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\countrylogic\\command\\updatecountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.application\\applicationlogic\\countrylogic\\command\\createcountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDE998A6-97B4-4440-BAE0-72A379399670}|ExamCore.Application\\ExamCore.Application.csproj|solutionrelative:examcore.application\\applicationlogic\\countrylogic\\command\\createcountrycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{070A6A9B-08F0-401F-99E6-FE755E2B70F1}|ExamCore.Manager\\ExamCore.Manager.csproj|c:\\users\\sujad ud\\source\\repos\\exam_app_net_angular\\examcore\\examcore.manager\\contracts\\irolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{070A6A9B-08F0-401F-99E6-FE755E2B70F1}|ExamCore.Manager\\ExamCore.Manager.csproj|solutionrelative:examcore.manager\\contracts\\irolemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 43,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Command\\UpdateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Command\\UpdateEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Command\\UpdateEmployeeCommand.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Command\\UpdateEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:48:50.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateEmployeeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Command\\CreateEmployeeCommand.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Command\\CreateEmployeeCommand.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Command\\CreateEmployeeCommand.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Command\\CreateEmployeeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:46:59.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Api\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "ExamCore.Api\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Api\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "ExamCore.Api\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:34:25.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Manager\\Manager\\EmployeeManager.cs",
+              "RelativeDocumentMoniker": "ExamCore.Manager\\Manager\\EmployeeManager.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Manager\\Manager\\EmployeeManager.cs",
+              "RelativeToolTip": "ExamCore.Manager\\Manager\\EmployeeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:31:58.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Repository\\Repository\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "ExamCore.Repository\\Repository\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Repository\\Repository\\EmployeeRepository.cs",
+              "RelativeToolTip": "ExamCore.Repository\\Repository\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:30:23.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Model\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Model\\EmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Model\\EmployeeViewModel.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\EmployeeLogic\\Model\\EmployeeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T03:28:41.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Api\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "ExamCore.Api\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Api\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "ExamCore.Api\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:42:17.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SelectListRoleQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\SelectListRoleQuery.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\SelectListRoleQuery.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\SelectListRoleQuery.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\SelectListRoleQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:38:01.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetRoleDetailsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\GetRoleDetailsQuery.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\GetRoleDetailsQuery.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\GetRoleDetailsQuery.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\GetRoleDetailsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:35:52.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetAllRoleQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\GetAllRoleQuery.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\GetAllRoleQuery.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\GetAllRoleQuery.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Queries\\GetAllRoleQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:32:49.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DeleteRoleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\DeleteRoleCommand.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\DeleteRoleCommand.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\DeleteRoleCommand.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\DeleteRoleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:30:22.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IRoleManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Manager\\Contracts\\IRoleManager.cs",
+              "RelativeDocumentMoniker": "ExamCore.Manager\\Contracts\\IRoleManager.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Manager\\Contracts\\IRoleManager.cs",
+              "RelativeToolTip": "ExamCore.Manager\\Contracts\\IRoleManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:20:09.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdateCountryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\UpdateCountryCommand.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\UpdateCountryCommand.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\UpdateCountryCommand.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\UpdateCountryCommand.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:18:23.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateCountryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\CreateCountryCommand.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\CreateCountryCommand.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\CreateCountryCommand.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\CreateCountryCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:18:20.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CountryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Model\\CountryViewModel.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Model\\CountryViewModel.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Model\\CountryViewModel.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Model\\CountryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:18:17.557Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Api\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "ExamCore.Api\\Controllers\\CountryController.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Api\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "ExamCore.Api\\Controllers\\CountryController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:42:23.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SelectListCountryQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\SelectListCountryQuery.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\SelectListCountryQuery.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\SelectListCountryQuery.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\SelectListCountryQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:18:28.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetCountryDetailsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\GetCountryDetailsQuery.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\GetCountryDetailsQuery.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\GetCountryDetailsQuery.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\GetCountryDetailsQuery.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvyIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:18:27.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetAllCountryQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\GetAllCountryQuery.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\GetAllCountryQuery.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\GetAllCountryQuery.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Queries\\GetAllCountryQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:18:26.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DeleteCountryCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\DeleteCountryCommand.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\DeleteCountryCommand.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\DeleteCountryCommand.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\CountryLogic\\Command\\DeleteCountryCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:18:22.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProvideErrorMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Shared\\ErrorMessages\\ProvideErrorMessage.cs",
+              "RelativeDocumentMoniker": "ExamCore.Shared\\ErrorMessages\\ProvideErrorMessage.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Shared\\ErrorMessages\\ProvideErrorMessage.cs",
+              "RelativeToolTip": "ExamCore.Shared\\ErrorMessages\\ProvideErrorMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:28:25.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UpdateRoleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\UpdateRoleCommand.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\UpdateRoleCommand.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\UpdateRoleCommand.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\UpdateRoleCommand.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:24:49.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Model\\RoleViewModel.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Model\\RoleViewModel.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Model\\RoleViewModel.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Model\\RoleViewModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAewCwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:18:52.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateRoleCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\CreateRoleCommand.cs",
+              "RelativeDocumentMoniker": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\CreateRoleCommand.cs",
+              "ToolTip": "C:\\Users\\Sujad UD\\source\\repos\\exam_app_net_angular\\ExamCore\\ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\CreateRoleCommand.cs",
+              "RelativeToolTip": "ExamCore.Application\\ApplicationLogic\\RoleLogic\\Command\\CreateRoleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T02:22:25.506Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

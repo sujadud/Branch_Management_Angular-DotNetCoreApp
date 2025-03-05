@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ge0KhDW17PE/tLUcnijAmZ4GuAjK0Jj6kpyBWJ/QjUU=",
+  "Source": "ExamCore.Api",
+  "BasePath": "_content/ExamCore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
