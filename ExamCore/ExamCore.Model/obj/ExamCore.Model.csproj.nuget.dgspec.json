@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sujad UD\\Source\\Repos\\exam_app_net_angular\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj": {}
+    "C:\\Users\\Sujad UD\\source\\source\\repos\\Angular_DotNetCoreApp\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sujad UD\\Source\\Repos\\exam_app_net_angular\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj": {
+    "C:\\Users\\Sujad UD\\source\\source\\repos\\Angular_DotNetCoreApp\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sujad UD\\Source\\Repos\\exam_app_net_angular\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Sujad UD\\source\\source\\repos\\Angular_DotNetCoreApp\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj",
         "projectName": "ExamCore.Model",
-        "projectPath": "C:\\Users\\Sujad UD\\Source\\Repos\\exam_app_net_angular\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj",
+        "projectPath": "C:\\Users\\Sujad UD\\source\\source\\repos\\Angular_DotNetCoreApp\\ExamCore\\ExamCore.Model\\ExamCore.Model.csproj",
         "packagesPath": "C:\\Users\\Sujad UD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sujad UD\\Source\\Repos\\exam_app_net_angular\\ExamCore\\ExamCore.Model\\obj\\",
+        "outputPath": "C:\\Users\\Sujad UD\\source\\source\\repos\\Angular_DotNetCoreApp\\ExamCore\\ExamCore.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Sujad UD\\Source\\Repos\\exam_app_net_angular\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj": {
-                "projectPath": "C:\\Users\\Sujad UD\\Source\\Repos\\exam_app_net_angular\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj"
+              "C:\\Users\\Sujad UD\\source\\source\\repos\\Angular_DotNetCoreApp\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj": {
+                "projectPath": "C:\\Users\\Sujad UD\\source\\source\\repos\\Angular_DotNetCoreApp\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Sujad UD\\Source\\Repos\\exam_app_net_angular\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj": {
+    "C:\\Users\\Sujad UD\\source\\source\\repos\\Angular_DotNetCoreApp\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sujad UD\\Source\\Repos\\exam_app_net_angular\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Sujad UD\\source\\source\\repos\\Angular_DotNetCoreApp\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj",
         "projectName": "ExamCore.Shared",
-        "projectPath": "C:\\Users\\Sujad UD\\Source\\Repos\\exam_app_net_angular\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj",
+        "projectPath": "C:\\Users\\Sujad UD\\source\\source\\repos\\Angular_DotNetCoreApp\\ExamCore\\ExamCore.Shared\\ExamCore.Shared.csproj",
         "packagesPath": "C:\\Users\\Sujad UD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sujad UD\\Source\\Repos\\exam_app_net_angular\\ExamCore\\ExamCore.Shared\\obj\\",
+        "outputPath": "C:\\Users\\Sujad UD\\source\\source\\repos\\Angular_DotNetCoreApp\\ExamCore\\ExamCore.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

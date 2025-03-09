@@ -1,0 +1,39 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore TypeScript compiled JavaScript files
+*.js
+*.js.map
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore IDE and OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore ASP.NET Core specific files
+bin/
+obj/
+.vscode/
+.vscode-test/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build output
+out/
