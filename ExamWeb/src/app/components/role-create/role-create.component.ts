@@ -19,7 +19,7 @@ export class RoleCreateComponent {
    
   private getValidateCityCreateFromResult(): boolean {
       if(this.roleCreateModel.name == undefined || this.roleCreateModel.name == null || this.roleCreateModel.name == "") {
-        this.toastrService.warning("Please, provide name.", "Warning");
+        this.toastrService.warning("Please, provide role name.", "Warning");
         return false;
       }
   
@@ -38,6 +38,7 @@ onClickCreateRole(): void {
       this.spinnerService.show();
       console.log(this.roleCreateModel);
       this.roleService.createAsync(this.roleCreateModel).subscribe((result: RoleCreateModel) => {
+        console.log(this.roleCreateModel);
         this.spinnerService.hide();
         this.toastrService.success("City created.", "Success.");
         this.resetCityCreateFrom();

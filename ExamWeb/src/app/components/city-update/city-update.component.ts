@@ -74,9 +74,7 @@ export class CityUpdateComponent {
   }
 
   onClickCityUpdate(): void {
-    let isCityUpdateFormValidate: boolean = this.getCityUpdateFormValidateResult();
-
-    if(isCityUpdateFormValidate) {
+    if(this.getCityUpdateFormValidateResult()) {
       this.spinnerService.show();
       this.cityService.updateAsync(this.cityUpdateModel).subscribe((result: CityUpdateModel) => {
         this.spinnerService.hide();

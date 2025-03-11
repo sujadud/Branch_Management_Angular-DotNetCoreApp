@@ -11,6 +11,7 @@ import { BranchCreateComponent } from './components/branch-create/branch-create.
 import { BranchUpdateComponent } from './components/branch-update/branch-update.component';
 import { RoleListComponent } from './components/role-list/role-list.component';
 import { RoleCreateComponent } from './components/role-create/role-create.component';
+import { RoleUpdateComponent } from './components/role-update/role-update.component';
 
 const routes: Routes = [
   // For not match url
@@ -35,7 +36,7 @@ const routes: Routes = [
   // for roel
   { path: "roles", component: RoleListComponent, pathMatch: "full" },
   { path: "role/create", component: RoleCreateComponent, pathMatch: "full" },
-  { path: "role/update/:recordId", component: RoleCreateComponent, pathMatch: "full" },
+  { path: "role/update/:recordId", component: RoleUpdateComponent, pathMatch: "full" },
 ];
 
 @NgModule({

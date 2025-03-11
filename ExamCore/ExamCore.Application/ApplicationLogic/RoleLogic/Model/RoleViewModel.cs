@@ -1,8 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
-using AutoMapper;
 using ExamCore.Model.Models;
 using System.Dynamic;
+using AutoMapper;
+using ExamCore.Shared.Mappings;
 
 namespace ExamCore.Application.ApplicationLogic.RoleLogic.Model
 {
@@ -14,7 +15,7 @@ namespace ExamCore.Application.ApplicationLogic.RoleLogic.Model
         public dynamic OptionsDataSources { get; set; } = new ExpandoObject();
     }
 
-    public class RoleCreateModel
+    public class RoleCreateModel : IMapFrom<Role>
     {
         [Column(TypeName = "nvarchar(20)")]
         [Required(ErrorMessage = "Please, provide the name.")]
@@ -28,7 +29,7 @@ namespace ExamCore.Application.ApplicationLogic.RoleLogic.Model
         }
     }
 
-    public class RoleUpdateModel
+    public class RoleUpdateModel : IMapFrom<Role>
     {
         public int Id { get; set; }
         [Column(TypeName = "nvarchar(20)")]
@@ -42,7 +43,7 @@ namespace ExamCore.Application.ApplicationLogic.RoleLogic.Model
         }
     }
 
-    public class RoleGridModel
+    public class RoleGridModel : IMapFrom<Role>
     {
         public int Id { get; set; }
         public string Name { get; set; }
