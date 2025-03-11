@@ -26,6 +26,7 @@ Thumbs.db
 # Ignore ASP.NET Core specific files
 bin/
 obj/
+.vs
 .vscode/
 .vscode-test/
 
