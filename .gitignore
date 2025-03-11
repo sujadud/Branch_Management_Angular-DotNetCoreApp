@@ -11,6 +11,7 @@ build/
 
 # Ignore log files
 *.log
+.angular
 
 # Ignore environment files
 .env
@@ -26,7 +27,7 @@ Thumbs.db
 # Ignore ASP.NET Core specific files
 bin/
 obj/
-.vs
+.vs/
 .vscode/
 .vscode-test/
 
