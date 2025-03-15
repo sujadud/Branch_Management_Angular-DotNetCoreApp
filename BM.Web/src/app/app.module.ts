@@ -6,7 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { EmployeeComponent } from './components/employee/employee.component';
 import { CountryListComponent } from './components/country-list/country-list.component';
 import { ToastrModule } from 'ngx-toastr';
 import { NgxSpinnerModule } from 'ngx-spinner';
@@ -22,11 +21,12 @@ import { EmployeeListComponent } from './components/employee-list/employee-list.
 import { RoleListComponent } from './components/role-list/role-list.component';
 import { RoleCreateComponent } from './components/role-create/role-create.component';
 import { RoleUpdateComponent } from './components/role-update/role-update.component';
+import { EmployeeCreateComponent } from './components/employee-create/employee-create.component';
+import { EmployeeUpdateComponent } from './components/employee-update/employee-update.component';
 
 @NgModule({
   declarations: [	
     AppComponent,
-    EmployeeComponent,
     CountryListComponent,
     CountryCreateComponent,
     CountryUpdateComponent,
@@ -39,7 +39,9 @@ import { RoleUpdateComponent } from './components/role-update/role-update.compon
     EmployeeListComponent,
     RoleListComponent,
     RoleCreateComponent,
-    RoleUpdateComponent
+    RoleUpdateComponent,
+    EmployeeCreateComponent,
+    EmployeeUpdateComponent
   ],
 
   imports: [

@@ -8,21 +8,25 @@ namespace ExamCore.Repository.Repository
     public class EmployeeRepository : BaseRepository<Employee>, IEmployeeRepository
     {
         public override async Task<ICollection<Employee>> GetAllAsync()
-        {
-            var empList = await dbContext.Employees
-                                        .AsNoTracking()
-                                        .Include(e => e.BranchEmployees)
-                                        .Where(c => !c.IsDeleted)
-                                        .ToListAsync();
-            return empList;
+        {   
+            return await dbContext.Employees
+                                    .AsNoTracking()
+                                    .Include(be => be.BranchEmployees)
+                                        .ThenInclude(b => b.Branch)
+                                    .Include(e => e.BranchEmployees)
+                                        .ThenInclude(r => r.Role)
+                                    .Where(c => !c.IsDeleted)
+                                    .ToListAsync();
         }
 
         public override async Task<Employee> GetByIdAsync(int id)
         {
-            var emp = await dbContext.Employees
-                                        .Include(e => e.BranchEmployees.FirstOrDefault(e => e.EmployeeId == id))
-                                        .FirstOrDefaultAsync(e => e.Id == id);
-            return emp;
+            return await dbContext.Employees
+                                        .Include(be => be.BranchEmployees)
+                                        //    .ThenInclude(b => b.Branch)
+                                        //.Include(be => be.BranchEmployees)
+                                        //    .ThenInclude(r => r.Role)
+                                        .FirstOrDefaultAsync(e => e.Id == id);            
         }
     }
 }

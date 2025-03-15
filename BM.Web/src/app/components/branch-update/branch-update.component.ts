@@ -27,7 +27,6 @@ export class BranchUpdateComponent {
     this.getBranchIdByUrl();
     this.getBranchById();
   }
-
   
   private getCities(): void {
     this.spinnerService.show();
