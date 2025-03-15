@@ -12,6 +12,9 @@ import { BranchUpdateComponent } from './components/branch-update/branch-update.
 import { RoleListComponent } from './components/role-list/role-list.component';
 import { RoleCreateComponent } from './components/role-create/role-create.component';
 import { RoleUpdateComponent } from './components/role-update/role-update.component';
+import { EmployeeListComponent } from './components/employee-list/employee-list.component';
+import { EmployeeCreateComponent } from './components/employee-create/employee-create.component';
+import { EmployeeUpdateComponent } from './components/employee-update/employee-update.component';
 
 const routes: Routes = [
   // For not match url
@@ -37,6 +40,11 @@ const routes: Routes = [
   { path: "roles", component: RoleListComponent, pathMatch: "full" },
   { path: "role/create", component: RoleCreateComponent, pathMatch: "full" },
   { path: "role/update/:recordId", component: RoleUpdateComponent, pathMatch: "full" },
+
+  // for employee
+  { path: "employees", component: EmployeeListComponent, pathMatch: "full" },
+  { path: "employee/create", component: EmployeeCreateComponent, pathMatch: "full" },
+  { path: "employee/update/:recordId", component: EmployeeUpdateComponent, pathMatch: "full" }
 ];
 
 @NgModule({

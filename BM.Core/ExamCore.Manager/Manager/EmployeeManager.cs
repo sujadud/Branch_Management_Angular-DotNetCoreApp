@@ -1,6 +1,4 @@
-﻿
-
-using ExamCore.Manager.Base;
+﻿using ExamCore.Manager.Base;
 using ExamCore.Manager.Contracts;
 using ExamCore.Model.Models;
 using ExamCore.Repository.Contracts;

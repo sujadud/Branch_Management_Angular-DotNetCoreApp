@@ -1,5 +1,6 @@
 ﻿using ExamCore.Application.ApplicationLogic.EmployeeLogic.Command;
 using ExamCore.Application.ApplicationLogic.EmployeeLogic.Model;
+using ExamCore.Application.ApplicationLogic.EmployeeLogic.Queries;
 using ExamCore.Shared.Base;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,43 +11,50 @@ namespace ExamCore.Api.Controllers
         [HttpGet]        
         public async Task<ActionResult<ICollection<EmployeeGridModel>>> GetAllAsync()
         {
-            
-            return Ok();
+            var getAll = await Mediator.Send(new GetAllEmployeesQuery());
+            return Ok(getAll);
         }
 
         [HttpGet("{id}")]
         
         public async Task<ActionResult<EmployeeViewModel>> GetByIdAsync(int id)
         {
-            return Ok();
+            var bvm = new EmployeeViewModel
+            {
+                EmployeeUpdate = await Mediator.Send(new GetEmployeeDetailsQuery { Id = id })
+            };
+            return Ok(bvm);
         }
 
         [HttpPost]        
-        public async Task<ActionResult<EmployeeCreateModel>> CreateAsync(CreateEmployeeCommand createEmployee)
+        public async Task<ActionResult<EmployeeCreateModel>> CreateAsync(CreateEmployeeCommand model)
         {
             if (ModelState.IsValid)
             {
-                return Ok();
+                var create = await Mediator.Send(model);
+                return Ok(create);
             }
 
             return BadRequest();
         }
 
         [HttpPut]        
-        public async Task<ActionResult<EmployeeUpdateModel>> UpdateAsync(UpdateEmployeeCommand countryUpdateModel)
+        public async Task<ActionResult<EmployeeUpdateModel>> UpdateAsync(UpdateEmployeeCommand model)
         {
             if (ModelState.IsValid)
             {
-                return Ok();
+                var update = await Mediator.Send(model);
+                return Ok(update);
             }
 
-            return BadRequest();
+            return BadRequest(model);
         }
 
         [HttpDelete("{id}")]        
         public async Task<ActionResult<bool>> Delete(int id)
-        {            
-            return Ok();
+        {
+            var delete = await Mediator.Send(new DeleteEmployeeCommand { Id = id });
+            return Ok(delete);
         }
     }
 }
