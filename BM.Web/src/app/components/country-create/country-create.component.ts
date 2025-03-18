@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { ToastrService } from 'ngx-toastr';
 import { CountryCreateModel } from 'src/app/models/country/country-create-model';
@@ -16,7 +17,7 @@ export class CountryCreateComponent implements OnInit {
   countryCreateModel: CountryCreateModel = new CountryCreateModel();
  
   constructor(private countryService: CountryService, private toastrService: ToastrService, 
-    private spinnerService: NgxSpinnerService) { }
+    private spinnerService: NgxSpinnerService, private router: Router) { }
  
   ngOnInit() { }
  
@@ -32,7 +33,7 @@ export class CountryCreateComponent implements OnInit {
         this.spinnerService.hide();
         this.toastrService.success("Country created.", "Success.");
         this.resetCountryCreateFrom();
-        return;
+        return this.router.navigate(['/countries']);
       },
       (error: any) => {
         this.spinnerService.hide();
