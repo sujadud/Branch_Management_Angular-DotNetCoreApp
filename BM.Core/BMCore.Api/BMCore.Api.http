@@ -1,0 +1,15 @@
+@BMCore.Api_HostAddress = https://localhost:7106
+
+GET {{BMCore.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{BMCore.Api_HostAddress}}/api/role/CreateAsync
+Content-Type: application/json
+
+{
+  "Name": "Manager"
+}
+
+###
