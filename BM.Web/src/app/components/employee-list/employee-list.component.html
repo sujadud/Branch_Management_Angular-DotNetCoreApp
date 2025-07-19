@@ -18,15 +18,15 @@
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let city of employees" class="text-center">
-              <td>{{ city.id }}</td>
-              <td>{{ city.name }}</td>
-              <td>{{ city.code }}</td>
-              <td>{{ city.branchName }}</td>
-              <td>{{ city.roleName }}</td>
+            <tr *ngFor="let emp of employees" class="text-center">
+              <td>{{ emp.id }}</td>
+              <td>{{ emp.name }}</td>
+              <td>{{ emp.code }}</td>
+              <td>{{ emp.branchName }}</td>
+              <td>{{ emp.roleName }}</td>
               <td>
-                <button class="btn btn-sm btn-outline-success" routerLink="/employee/update/{{city.id}}">Edit</button>
-                <button class="btn btn-sm btn-outline-danger ms-1" (click)="onClickDelete(city.id!)">Delete</button>
+                <button class="btn btn-sm btn-outline-success" routerLink="/employee/update/{{emp.id}}">Edit</button>
+                <button class="btn btn-sm btn-outline-danger ms-1" (click)="onClickDelete(emp.id!)">Delete</button>
               </td>
             </tr>
           </tbody>
