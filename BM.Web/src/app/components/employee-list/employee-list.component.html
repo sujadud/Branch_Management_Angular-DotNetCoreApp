@@ -4,6 +4,33 @@
       <hr>
       <button class="btn btn-sm btn-outline-primary" routerLink="/employee/create">Create Employee</button>
     </div>
+    <div class="filter-bar">
+      <!-- Role Filter -->
+      <mat-form-field>
+        <mat-label>Role</mat-label>
+        <mat-select [(value)]="selectedRole" (selectionChange)="applyFilters()">
+          <mat-option [value]="null">All Roles</mat-option>
+          <mat-option *ngFor="let role of roles" [value]="role.Name">
+            {{ role.name }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <!-- Branch Filter -->
+      <mat-form-field>
+        <mat-label>Branch</mat-label>
+        <mat-select [(value)]="selectedBranch" (selectionChange)="applyFilters()">
+          <mat-option [value]="null">All Branches</mat-option>
+          <mat-option *ngFor="let branch of branches" [value]="branch.Name">
+            {{ branch.name }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <!-- Reset Filter -->
+      <button mat-stroked-button color="primary" (click)="resetFilters()">Reset Filters</button>
+    </div>
+
     <div class="row justify-content-center align-content-center">
         <div class="col-lg-12 col-md-12 col-sm-6 col-6">
         <table class="table table-bordered table-striped">
@@ -18,7 +45,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let city of employees" class="text-center">
+            <tr *ngFor="let city of filteredEmployees" class="text-center">
               <td>{{ city.id }}</td>
               <td>{{ city.name }}</td>
               <td>{{ city.code }}</td>
