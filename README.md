@@ -52,7 +52,7 @@ This project is a comprehensive Branch Management System developed using **ASP.N
     
 2.  **Navigate to the backend project directory**:    
     
-    `cd Branch_Management_Angular-DotNetCoreApp/BM.Web` 
+    `cd Branch_Management_Angular-DotNetCoreApp/BM.Api` 
     
 3.  **Apply database migrations**:
     
