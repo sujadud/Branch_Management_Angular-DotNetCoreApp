@@ -65,10 +65,17 @@ export class EmployeeListComponent {
   }
 
   applyFilters(): void {
-    this.filteredEmployees = this.employees.filter(emp =>
-      (this.selectedRole ? emp.roleName === this.selectedRole : true) &&
-      (this.selectedBranch ? emp.branchName === this.selectedBranch : true)
-    );
+    let filtered = [...this.employees];
+
+    if (this.selectedRole) {
+      filtered = filtered.filter(employee => employee.roleName === this.selectedRole);
+    }
+
+    if (this.selectedBranch) {
+      filtered = filtered.filter(employee => employee.branchName === this.selectedBranch);
+    }
+
+    this.filteredEmployees = filtered;
   }
 
   resetFilters(): void {

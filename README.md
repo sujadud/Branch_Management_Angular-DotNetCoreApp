@@ -1,4 +1,4 @@
-# exam_app_net_angular
+# BranchManagement_app_net_angular
 This test exam application was created by .NET Core Web API and Angular. 
 
 Migration command:

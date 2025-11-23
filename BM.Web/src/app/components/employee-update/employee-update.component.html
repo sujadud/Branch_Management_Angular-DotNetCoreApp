@@ -18,14 +18,14 @@
               <div class="col-md-6">
                 <label for="city" class="form-label">Branch</label>
                 <select class="form-control" id="branch" name="branch" [(ngModel)]="employeeUpdateModel.branchId">
-                    <option value="" disabled selected>Select Branch</option>
+                    <option [value]="null" disabled>Select Branch</option>
                   <option *ngFor="let branch of branchs" [value]="branch.id">{{ branch.name }}</option>
                 </select>
               </div>
               <div class="col-md-6">
                 <label for="city" class="form-label">Role</label>
                 <select class="form-control" id="role" name="role" [(ngModel)]="employeeUpdateModel.roleId">
-                    <option value="" disabled selected>Select Role</option>
+                    <option [value]="null" disabled>Select Role</option>
                   <option *ngFor="let role of roles" [value]="role.id">{{ role.name }}</option>
                 </select>
               </div>
