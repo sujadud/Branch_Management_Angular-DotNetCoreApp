@@ -14,7 +14,7 @@
               <div class="col-md-6">
                 <label for="country" class="form-label">Country</label>
                 <select class="form-control" id="country" name="country" [(ngModel)]="cityCreateModel.countryId">
-                    <option value="" disabled selected>Select Country</option>
+                    <option [value]="null" disabled>Select Country</option>
                   <option *ngFor="let country of countries" [value]="country.id">{{ country.name }}</option>
                 </select>
               </div>

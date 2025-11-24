@@ -14,7 +14,7 @@
               <div class="col-md-6">
                 <label for="city" class="form-label">City</label>
                 <select class="form-control" id="city" name="city" [(ngModel)]="branchUpdateModel.cityId">
-                    <option value="" disabled selected>Select City</option>
+                    <option [value]="null" disabled>Select City</option>
                   <option *ngFor="let city of cities" [value]="city.id">{{ city.name }}</option>
                 </select>
               </div>

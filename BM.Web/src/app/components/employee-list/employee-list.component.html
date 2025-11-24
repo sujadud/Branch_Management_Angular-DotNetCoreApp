@@ -1,9 +1,47 @@
 <div class="container mt-3">
-    <div class="col-md-12 col-sm-12 col-12 mb-3">
-      <h3 class="text-center">Employees</h3>
-      <hr>
-      <button class="btn btn-sm btn-outline-primary" routerLink="/employee/create">Create Employee</button>
+  <div class="col-md-12 col-sm-12 col-12 mb-3">
+    <h3 class="text-center">Employees</h3>
+    <hr>
+    <button class="btn btn-sm btn-outline-primary" routerLink="/employee/create">Create Employee</button>
+  </div>
+  
+  <div class="filter-bar d-flex gap-3 align-items-center mb-3">
+    <!-- Role Filter -->
+    <div class="form-group">
+      <select 
+        id="roleFilter" 
+        class="form-control" 
+        [(ngModel)]="selectedRole" 
+        (change)="applyFilters()">
+        <option [value]="null" disabled>All Roles</option>
+        <option *ngFor="let role of roles" [value]="role.name">
+          {{ role.name }}
+        </option>
+      </select>
     </div>
+
+    <!-- Branch Filter -->
+    <div class="form-group">
+      <select 
+        id="branchFilter" 
+        class="form-control" 
+        [(ngModel)]="selectedBranch" 
+        (change)="applyFilters()">
+        <option [value]="null" disabled>All Branches</option>
+        <option *ngFor="let branch of branches" [value]="branch.name">
+          {{ branch.name }}
+        </option>
+      </select>
+    </div>
+
+    <!-- Reset Filter -->
+    <button 
+      class="btn btn-sm btn-outline-secondary" 
+      (click)="resetFilters()">
+      Reset Filters
+    </button>
+  </div>
+
     <div class="row justify-content-center align-content-center">
         <div class="col-lg-12 col-md-12 col-sm-6 col-6">
         <table class="table table-bordered table-striped">
@@ -18,15 +56,15 @@
             </tr>
           </thead>
           <tbody>
-            <tr *ngFor="let emp of employees" class="text-center">
-              <td>{{ emp.id }}</td>
-              <td>{{ emp.name }}</td>
-              <td>{{ emp.code }}</td>
-              <td>{{ emp.branchName }}</td>
-              <td>{{ emp.roleName }}</td>
+            <tr *ngFor="let city of filteredEmployees" class="text-center">
+              <td>{{ city.id }}</td>
+              <td>{{ city.name }}</td>
+              <td>{{ city.code }}</td>
+              <td>{{ city.branchName }}</td>
+              <td>{{ city.roleName }}</td>
               <td>
-                <button class="btn btn-sm btn-outline-success" routerLink="/employee/update/{{emp.id}}">Edit</button>
-                <button class="btn btn-sm btn-outline-danger ms-1" (click)="onClickDelete(emp.id!)">Delete</button>
+                <button class="btn btn-sm btn-outline-success" routerLink="/employee/update/{{city.id}}">Edit</button>
+                <button class="btn btn-sm btn-outline-danger ms-1" (click)="onClickDelete(city.id!)">Delete</button>
               </td>
             </tr>
           </tbody>

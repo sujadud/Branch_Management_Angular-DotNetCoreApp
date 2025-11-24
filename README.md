@@ -1,135 +1,29 @@
-# Branch Management System
+# BranchManagement_app_net_angular
+This test exam application was created by .NET Core Web API and Angular. 
 
-This project is a comprehensive Branch Management System developed using **ASP.NET Core** for the backend and **Angular** for the frontend. It enables efficient management of company branches across various cities, along with employee assignments and roles.
+Migration command:
+  -  When you run the migration command, you must set ExamCore.Database class library as the Startup Project. 
 
-## Table of Contents
+Example command:
+  -  dotnet ef migrations add InitDatabase --project ExamCore.Database -s ExamCore.Api -c DatabaseContext --verbose
+  -  dotnet ef database update InitDatabase --project ExamCore.Database -s ExamCore.Api -c DatabaseContext --verbose
+  -  dotnet ef migrations remove --project ExamCore.Database -s ExamCore.Api -c DatabaseContext --verbose
 
--   [Features](#features)
--   [Technologies Used](#technologies-used)
--   [Getting Started](#getting-started)
-    -   [Prerequisites](#prerequisites)
-    -   [Installation](#installation)
--   [Usage](#usage)
--   [API Endpoints](#api-endpoints)
--   [Frontend Components](#frontend-components)
--   [Contributing](#contributing)
--   [License](#license)
+Task description:
+You create an API like City or Employee. Whatever you choose, must need to add a relation in Country. When your API is complete then you create an Angular component like Create, Update, and List. Must set routing, from validation. 
 
-## Features
+Backend step:
+  -  Create a domain model on the domain class library.
+  -  Add domain model on the database class library.
+  -  Create IRepository interface, and Repository class for this domain model on the repository class library.
+  -  Create IManager interface, and Manager class for this domain model on the manager class library.
+  -  Create application login using CQRS and Mediator pattern for this domain model application logic class library.
+  -  Create API controller and call IManager class library.
 
--   **Branch Management**: Create, update, and list branches with associated cities.
--   **Employee Management**: Assign employees to branches with specific roles.
--   **Form Validation**: Robust validation mechanisms to ensure data integrity.
--   **Loading Indicators**: Enhanced user experience with responsive loading indicators.
+Frontend step:
+  -  Create models.
+  -  Create service.
+  -  Create Create, Update, List component.
+  -  Add routing.
 
-## Technologies Used
-
--   **Backend**:
-    
-    -   ASP.NET Core
-    -   Entity Framework Core
-    -   CQRS & Mediator Pattern
--   **Frontend**:
-    
-    -   Angular
-    -   Angular Material
-    -   RxJS
-
-## Getting Started
-
-### Prerequisites
-
--   [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
--   [Node.js](https://nodejs.org/) (**18.10.0** LTS version recommended)
--   [Angular CLI]()
--   [SQL Server](https://www.microsoft.com/en-us/sql-server)
-
-### Installation
-
-1.  **Clone the repository**:    
-    
-    `git clone https://github.com/sujadud/Branch_Management_Angular-DotNetCoreApp.git` 
-    
-2.  **Navigate to the backend project directory**:    
-    
-    `cd BMCore.Api` 
-    
-3.  **Apply database migrations**:
-    
-    `dotnet ef database update` 
-    
-4.  **Run the backend API**:
-    
-    `dotnet run` 
-    
-5.  **Navigate to the frontend project directory**:
-    
-    `cd ../BM.Web/ClientApp` 
-    
-6.  **Install frontend dependencies**:
-    
-    `npm install` 
-    
-7.  **Run the Angular application**:
-    
-    `ng serve` 
-    
-
-## Usage
-
--   Access the Angular application at `http://localhost:4200/`.
--   Use the navigation menu to manage branches, employees, cities, and roles.
--   Forms include validation to ensure proper data entry.
-
-## API Endpoints
-
--   **Branches**:
-    
-    -   `GET /api/branches`
-    -   `POST /api/branches`
-    -   `PUT /api/branches/{id}`
-    -   `DELETE /api/branches/{id}`
--   **Employees**:
-    
-    -   `GET /api/employees`
-    -   `POST /api/employees`
-    -   `PUT /api/employees/{id}`
-    -   `DELETE /api/employees/{id}`
--   **Cities**:
-    
-    -   `GET /api/cities`
-    -   `POST /api/cities`
-    -   `PUT /api/cities/{id}`
-    -   `DELETE /api/cities/{id}`
--   **Roles**:
-    
-    -   `GET /api/roles`
-    -   `POST /api/roles`
-    -   `PUT /api/roles/{id}`
-    -   `DELETE /api/roles/{id}`
-
-## Frontend Components
-
--   **Branch Components**:
-    
-    -   `branch-list`
-    -   `branch-create`
-    -   `branch-edit`
--   **Employee Components**:
-    
-    -   `employee-list`
-    -   `employee-create`
-    -   `employee-edit`
--   **Shared Components**:
-    
-    -   `pagination`
-    -   `loading-spinner`
-    -   `validation-messages`
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Happy Codding!
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+I already do similar tasks like Country. You just follow the Country for Backend and Frontend. 
