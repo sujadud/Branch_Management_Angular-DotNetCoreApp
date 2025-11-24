@@ -22,22 +22,22 @@ This project is a comprehensive Branch Management System developed using **.NET 
 
 ## Technologies Used
 ### Backend:
-- .NET Core
-- EF Core
-- CQRS & Mediator Pattern
+   - .NET Core
+   - EF Core
+   - CQRS & Mediator Pattern
 
 ### Frontend:
-- Angular
-- Angular Material
-- RxJS
+   - Angular
+   - Angular Material
+   - RxJS
 
 ## Getting Started
 
 ### Prerequisites
-- [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
-- [Node.js](https://nodejs.org/) (18.10.0 LTS version recommended)
-- [Angular CLI]()
-- [SQL Server](https://www.microsoft.com/en-us/sql-server)
+   - [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
+   - [Node.js](https://nodejs.org/) (18.10.0 LTS version recommended)
+   - [Angular CLI]()
+   - [SQL Server](https://www.microsoft.com/en-us/sql-server)
 
 ### Installation
 1. Clone the repository:
@@ -63,45 +63,45 @@ This project is a comprehensive Branch Management System developed using **.NET 
 5. Forms include validation to ensure proper data entry.
 
 ## API Endpoints
-### Branches:
-- `GET /api/branches`
-- `POST /api/branches`
-- `PUT /api/branches/{id}`
-- `DELETE /api/branches/{id}`
+- ### Branches:
+   - `GET /api/branches`
+   - `POST /api/branches`
+   - `PUT /api/branches/{id}`
+   - `DELETE /api/branches/{id}`
 
-### Employees:
-- `GET /api/employees`
-- `POST /api/employees`
-- `PUT /api/employees/{id}`
-- `DELETE /api/employees/{id}`
+- ### Employees:
+   - `GET /api/employees`
+   - `POST /api/employees`
+   - `PUT /api/employees/{id}`
+   - `DELETE /api/employees/{id}`
 
-### Cities:
-- `GET /api/cities`
-- `POST /api/cities`
-- `PUT /api/cities/{id}`
-- `DELETE /api/cities/{id}`
+- ### Cities:
+   - `GET /api/cities`
+   - `POST /api/cities`
+   - `PUT /api/cities/{id}`
+   - `DELETE /api/cities/{id}`
 
-### Roles:
-- `GET /api/roles`
-- `POST /api/roles`
-- `PUT /api/roles/{id}`
-- `DELETE /api/roles/{id}`
+- ### Roles:
+   - `GET /api/roles`
+   - `POST /api/roles`
+   - `PUT /api/roles/{id}`
+   - `DELETE /api/roles/{id}`
 
 ## Frontend Components
-### Branch Components:
-- `branch-list`
-- `branch-create`
-- `branch-edit`
+- ### Branch Components:
+   - `branch-list`
+   - `branch-create`
+   - `branch-edit`
 
-### Employee Components:
-- `employee-list`
-- `employee-create`
-- `employee-edit`
+- ### Employee Components:
+   - `employee-list`
+   - `employee-create`
+   - `employee-edit`
 
-### Shared Components:
-- `pagination`
-- `loading-spinner`
-- `validation-messages`
+- ### Shared Components:
+   - `pagination`
+   - `loading-spinner`
+   - `validation-messages`
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Happy Codding!
