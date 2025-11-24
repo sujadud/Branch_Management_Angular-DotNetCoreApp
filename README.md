@@ -28,7 +28,6 @@ This project is a comprehensive Branch Management System developed using **.NET 
 
 ### Frontend:
    - Angular
-   - Angular Material
    - RxJS
 
 ## Getting Started
